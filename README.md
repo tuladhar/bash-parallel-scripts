@@ -8,7 +8,7 @@ Run bash scripts in parallel across servers using bash background jobs.
 1. Edit `run.sh` and place your custom commands there.
 2. Execute `parallel.sh` script
 
-Note: Logs are stored for each server runs.
+Note: Per server execution logs are stored in logs directory and is overwritten on every runs.
 
 Tips: Edit `MAX_NPROC` in `paralle.sh` to adjust # of parallel processes
 
